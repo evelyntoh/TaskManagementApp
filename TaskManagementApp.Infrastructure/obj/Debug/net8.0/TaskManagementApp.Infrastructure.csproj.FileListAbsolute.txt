@@ -1,0 +1,17 @@
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Infrastructure\bin\Debug\net8.0\TaskManagementApp.Infrastructure.deps.json
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Infrastructure\bin\Debug\net8.0\TaskManagementApp.Infrastructure.dll
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Infrastructure\bin\Debug\net8.0\TaskManagementApp.Infrastructure.pdb
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Infrastructure\bin\Debug\net8.0\TaskManagementApp.Application.dll
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Infrastructure\bin\Debug\net8.0\TaskManagementApp.Domain.dll
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Infrastructure\bin\Debug\net8.0\TaskManagementApp.Application.pdb
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Infrastructure\bin\Debug\net8.0\TaskManagementApp.Domain.pdb
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Infrastructure\obj\Debug\net8.0\TaskManagementApp.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Infrastructure\obj\Debug\net8.0\TaskManagementApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Infrastructure\obj\Debug\net8.0\TaskManagementApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Infrastructure\obj\Debug\net8.0\TaskManagementApp.Infrastructure.AssemblyInfo.cs
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Infrastructure\obj\Debug\net8.0\TaskManagementApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Infrastructure\obj\Debug\net8.0\TaskMana.C4BDB0B3.Up2Date
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Infrastructure\obj\Debug\net8.0\TaskManagementApp.Infrastructure.dll
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Infrastructure\obj\Debug\net8.0\refint\TaskManagementApp.Infrastructure.dll
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Infrastructure\obj\Debug\net8.0\TaskManagementApp.Infrastructure.pdb
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Infrastructure\obj\Debug\net8.0\ref\TaskManagementApp.Infrastructure.dll

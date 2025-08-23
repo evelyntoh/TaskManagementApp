@@ -1,0 +1,15 @@
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Application\bin\Debug\net8.0\TaskManagementApp.Application.deps.json
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Application\bin\Debug\net8.0\TaskManagementApp.Application.dll
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Application\bin\Debug\net8.0\TaskManagementApp.Application.pdb
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Application\bin\Debug\net8.0\TaskManagementApp.Domain.dll
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Application\bin\Debug\net8.0\TaskManagementApp.Domain.pdb
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Application\obj\Debug\net8.0\TaskManagementApp.Application.csproj.AssemblyReference.cache
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Application\obj\Debug\net8.0\TaskManagementApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Application\obj\Debug\net8.0\TaskManagementApp.Application.AssemblyInfoInputs.cache
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Application\obj\Debug\net8.0\TaskManagementApp.Application.AssemblyInfo.cs
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Application\obj\Debug\net8.0\TaskManagementApp.Application.csproj.CoreCompileInputs.cache
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Application\obj\Debug\net8.0\TaskMana.4DA97E92.Up2Date
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Application\obj\Debug\net8.0\TaskManagementApp.Application.dll
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Application\obj\Debug\net8.0\refint\TaskManagementApp.Application.dll
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Application\obj\Debug\net8.0\TaskManagementApp.Application.pdb
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Application\obj\Debug\net8.0\ref\TaskManagementApp.Application.dll

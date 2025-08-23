@@ -1,0 +1,11 @@
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Domain\bin\Debug\net8.0\TaskManagementApp.Domain.deps.json
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Domain\bin\Debug\net8.0\TaskManagementApp.Domain.dll
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Domain\bin\Debug\net8.0\TaskManagementApp.Domain.pdb
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Domain\obj\Debug\net8.0\TaskManagementApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Domain\obj\Debug\net8.0\TaskManagementApp.Domain.AssemblyInfoInputs.cache
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Domain\obj\Debug\net8.0\TaskManagementApp.Domain.AssemblyInfo.cs
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Domain\obj\Debug\net8.0\TaskManagementApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Domain\obj\Debug\net8.0\TaskManagementApp.Domain.dll
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Domain\obj\Debug\net8.0\refint\TaskManagementApp.Domain.dll
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Domain\obj\Debug\net8.0\TaskManagementApp.Domain.pdb
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Domain\obj\Debug\net8.0\ref\TaskManagementApp.Domain.dll

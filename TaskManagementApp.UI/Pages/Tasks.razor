@@ -1,0 +1,138 @@
+@page "/"
+@using TaskManagementApp.UI.Models
+@using TaskManagementApp.UI.Service
+@inject TaskService TaskService
+
+<h3>Tasks</h3>
+
+<ul>
+    <div class="d-flex justify-content-between mb-2">
+        <div class="d-flex gap-2">
+            <button class="btn btn-primary mr-1" @onclick="() => SetFilter(FilterConstants.All)">@FilterConstants.All</button>
+            <button class="btn btn-success mr-1" @onclick="() => SetFilter(FilterConstants.Complete)">@FilterConstants.Complete</button>
+            <button class="btn btn-warning" @onclick="() => SetFilter(FilterConstants.Pending)">@FilterConstants.Pending</button>
+        </div>
+
+        <div class="d-flex gap-2 input-group w-auto">
+            <button class="btn btn-outline-success mr-1" @onclick="OpenModal">New Task</button>
+        </div>
+    </div>
+
+    <!-- Tasks Table -->
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Task</th>
+            <th>Description</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var task in _tasks)
+        {
+            <tr>
+                <td>@task.Title</td>
+                <td>@(task.Description)</td>
+                <td>@(task.IsCompleted ? FilterConstants.Complete : FilterConstants.Pending)</td>
+                <td>
+                    <button class="btn btn-sm btn-success me-1" @onclick="() => CompleteTask(task.Id)">Complete</button>
+                    <button class="btn btn-sm btn-danger" @onclick="() => DeleteTask(task.Id)">Delete</button>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</ul>
+
+<div class="modal fade @(_modalVisible ? "show d-block" : "")" tabindex="-1" style="background-color: rgba(0,0,0,0.5);">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Add Task</h5>
+                <button type="button" class="btn-close" @onclick="CloseModal"></button>
+            </div>
+            <div class="modal-body">
+                @if (!string.IsNullOrEmpty(_errorMessage))
+                {
+                <div class="alert alert-danger">@_errorMessage</div>
+                }
+                <input required type="text" class="mb-2 form-control" placeholder="Name" @bind="_newTaskTitle"/>
+                <textarea type="text" class="form-control" placeholder="Description" @bind="_newTaskDescription"></textarea>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" @onclick="CloseModal">Cancel</button>
+                <button class="btn btn-primary" @onclick="AddTask">Add Task</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private List<TaskItemModel> _tasks = [];
+    private string _currentFilter = FilterConstants.All;
+    private bool _modalVisible;
+    private string _newTaskTitle = string.Empty;
+    private string _newTaskDescription = string.Empty;
+    private string _errorMessage = string.Empty;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await PopulateTasks();
+    }
+    
+    private async Task PopulateTasks()
+    {
+        _tasks = _currentFilter switch
+        {
+            FilterConstants.All => await TaskService.GetTasksAsync(),
+            FilterConstants.Complete => await TaskService.GetCompletedTasksAsync(),
+            FilterConstants.Pending => await TaskService.GetIncompleteTasksAsync(),
+            _ => await TaskService.GetTasksAsync()
+        };
+    }
+
+    private async Task SetFilter(string filter)
+    {
+        _currentFilter = filter;
+        await PopulateTasks();
+    }
+
+    private void OpenModal()
+    {
+        _modalVisible = true;
+    }
+    
+    private void CloseModal()
+    {
+        _modalVisible = false;
+    }
+
+    private async Task AddTask()
+    {
+        if (string.IsNullOrWhiteSpace(_newTaskTitle))
+        {
+            _errorMessage = "Task name is required";
+            return;
+        }
+        
+        _errorMessage = string.Empty;
+        await TaskService.AddTaskAsync(_newTaskTitle, _newTaskDescription);
+        _newTaskTitle = string.Empty;
+        _newTaskDescription = string.Empty;
+        CloseModal();
+        await PopulateTasks(); 
+    }
+    
+    private async Task CompleteTask(Guid id)
+    {
+        await TaskService.CompleteTaskAsync(id);
+        await PopulateTasks();
+    }
+    
+    private async Task DeleteTask(Guid id)
+    {
+        await TaskService.DeleteTaskAsync(id);
+        await PopulateTasks();
+    }
+}

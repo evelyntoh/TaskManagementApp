@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Evelyn_Toh\\RiderProjects\\TaskManagementApp\\TaskManagementApp.UI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\Evelyn_Toh\\RiderProjects\\TaskManagementApp\\TaskManagementApp.UI\\obj\\Debug\\net8.0\\compressed\\f1nssimex6.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\Evelyn_Toh\\RiderProjects\\TaskManagementApp\\TaskManagementApp.UI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TaskManagementApp.UI.styles.css",
+      "PackagePath": "staticwebassets\\TaskManagementApp.UI.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Evelyn_Toh\\RiderProjects\\TaskManagementApp\\TaskManagementApp.UI\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Evelyn_Toh\\RiderProjects\\TaskManagementApp\\TaskManagementApp.UI\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Evelyn_Toh\\RiderProjects\\TaskManagementApp\\TaskManagementApp.UI\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Evelyn_Toh\\RiderProjects\\TaskManagementApp\\TaskManagementApp.UI\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Evelyn_Toh\\RiderProjects\\TaskManagementApp\\TaskManagementApp.UI\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\Evelyn_Toh\\RiderProjects\\TaskManagementApp\\TaskManagementApp.UI\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Evelyn_Toh\\RiderProjects\\TaskManagementApp\\TaskManagementApp.UI\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TaskManagementApp.UI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TaskManagementApp.UI.props",
+      "PackagePath": "build\\TaskManagementApp.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TaskManagementApp.UI.props",
+      "PackagePath": "buildMultiTargeting\\TaskManagementApp.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TaskManagementApp.UI.props",
+      "PackagePath": "buildTransitive\\TaskManagementApp.UI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
