@@ -15,3 +15,4 @@ C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Infrastruc
 C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Infrastructure\obj\Debug\net8.0\refint\TaskManagementApp.Infrastructure.dll
 C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Infrastructure\obj\Debug\net8.0\TaskManagementApp.Infrastructure.pdb
 C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Infrastructure\obj\Debug\net8.0\ref\TaskManagementApp.Infrastructure.dll
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Infrastructure\obj\Debug\net8.0\TaskManagementApp.Infrastructure.sourcelink.json

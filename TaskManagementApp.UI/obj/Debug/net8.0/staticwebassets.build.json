@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZqrCOy+dUBFLive3QcKlAKjvizjutHAHRKrb6/7xbqg=",
+  "Hash": "xTKrwu59gQCg9PLs1d3vAABh+PN4x3KpDm9boiOnie4=",
   "Source": "TaskManagementApp.UI",
   "BasePath": "/",
   "Mode": "Root",
@@ -7805,6 +7805,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Evelyn_Toh\\RiderProjects\\TaskManagementApp\\TaskManagementApp.UI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TaskManagementApp.UI.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Evelyn_Toh\\RiderProjects\\TaskManagementApp\\TaskManagementApp.UI\\wwwroot\\appsettings.json",
+      "SourceId": "TaskManagementApp.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Evelyn_Toh\\RiderProjects\\TaskManagementApp\\TaskManagementApp.UI\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "appsettings.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "settings",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\appsettings.json"
     },
     {
       "Identity": "C:\\Users\\Evelyn_Toh\\RiderProjects\\TaskManagementApp\\TaskManagementApp.UI\\wwwroot\\css\\app.css",

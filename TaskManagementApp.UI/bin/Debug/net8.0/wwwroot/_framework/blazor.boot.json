@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "TaskManagementApp.UI",
   "resources": {
-    "hash": "sha256-BMO7vnDU0rYdn7DCt4TEoyiF66llakmwya1kv/Q98dU=",
+    "hash": "sha256-kMz8kHQJ6SV/pf0c+wNBFOe7UY9KF6Scyqgj9TOOHx0=",
     "jsModuleNative": {
       "dotnet.native.8.0.5.vaziqfyh8w.js": "sha256-boyHe+0RMZDkzBKGhsrnXPhPg3oZ6UqJnTUzngJPjNY="
     },
@@ -208,14 +208,17 @@
       "mscorlib.wasm": "sha256-XvLAB5IyfVSmj5aaGnPwgVFaaZz8jXmbN8WmeopiPBM=",
       "netstandard.wasm": "sha256-TbMssdnuTiKq1gjTPkpgROAuWN0uhvPnagvWR+wAgNs=",
       "System.Private.CoreLib.wasm": "sha256-sscg+Efk8ROPq+q4IVmhShzITuoOYvB8Bsc+Mp9vcSM=",
-      "TaskManagementApp.UI.wasm": "sha256-mkBAxrAulci90mPaJneQTzXFjAHERw8Q10kLVethK+U="
+      "TaskManagementApp.UI.wasm": "sha256-5Qz6wJWA//1KCwiYhgYG+sYW3QKUyBINydG1ipa5ErE="
     },
     "pdb": {
-      "TaskManagementApp.UI.pdb": "sha256-6Utk+z/4km5n80cJukq/c8IKIdSMaOCySH1Lbio+OeU="
+      "TaskManagementApp.UI.pdb": "sha256-uGEV+GC8e1dbtbnQeBbtApvmp40fGWqEF3zyAvRLjEU="
     }
   },
   "cacheBootResources": true,
   "debugLevel": -1,
+  "appsettings": [
+    "../appsettings.json"
+  ],
   "globalizationMode": "sharded",
   "extensions": {
     "blazor": {}

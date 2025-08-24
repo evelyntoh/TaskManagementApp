@@ -9,3 +9,4 @@ C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Domain\obj
 C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Domain\obj\Debug\net8.0\refint\TaskManagementApp.Domain.dll
 C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Domain\obj\Debug\net8.0\TaskManagementApp.Domain.pdb
 C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Domain\obj\Debug\net8.0\ref\TaskManagementApp.Domain.dll
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Domain\obj\Debug\net8.0\TaskManagementApp.Domain.sourcelink.json

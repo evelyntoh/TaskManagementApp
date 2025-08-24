@@ -7,9 +7,13 @@ var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
 
+var apiBaseUrl = builder.Configuration["ApiBaseUrl"] ?? throw new InvalidOperationException("ApiBaseUrl not found in configuration.");
+
 builder.Services.AddScoped(sp => new HttpClient
 {
-    BaseAddress = new Uri("https://localhost:44369/")
-});builder.Services.AddScoped<TaskService>();
+    BaseAddress = new Uri(apiBaseUrl)
+});
+
+builder.Services.AddScoped<TaskService>();
 
 await builder.Build().RunAsync();

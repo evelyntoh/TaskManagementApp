@@ -1029,3 +1029,5 @@ C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.UI\obj\Deb
 C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.UI\obj\Debug\net8.0\refint\TaskManagementApp.UI.dll
 C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.UI\obj\Debug\net8.0\TaskManagementApp.UI.pdb
 C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.UI\obj\Debug\net8.0\ref\TaskManagementApp.UI.dll
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.UI\obj\Debug\net8.0\TaskManagementApp.UI.sourcelink.json
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.UI\bin\Debug\net8.0\wwwroot\appsettings.json

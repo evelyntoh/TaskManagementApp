@@ -6,6 +6,11 @@ using TaskManagementApp.Infrastructure.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.WebHost.ConfigureKestrel((context, options) =>
+{
+    options.Configure(context.Configuration.GetSection("Kestrel"));
+});
+
 builder.Services.AddControllers();
 
 builder.Services.AddDbContext<DatabaseContext>(options =>

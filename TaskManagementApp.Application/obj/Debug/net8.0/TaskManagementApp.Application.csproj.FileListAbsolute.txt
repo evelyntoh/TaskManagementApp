@@ -13,3 +13,4 @@ C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Applicatio
 C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Application\obj\Debug\net8.0\refint\TaskManagementApp.Application.dll
 C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Application\obj\Debug\net8.0\TaskManagementApp.Application.pdb
 C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Application\obj\Debug\net8.0\ref\TaskManagementApp.Application.dll
+C:\Users\Evelyn_Toh\RiderProjects\TaskManagementApp\TaskManagementApp.Application\obj\Debug\net8.0\TaskManagementApp.Application.sourcelink.json
